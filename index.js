@@ -1,9 +1,9 @@
 function setDocument() {
   if(document.createStyleSheet) {
-    document.createStyleSheet('https://cdn.jsdelivr.net/gh/Kokazhaev/webchat_button/index.css');
+    document.createStyleSheet('https://cdn.jsdelivr.net/gh/Kokazhaev/embedChat/index.css');
   }
   else {
-    var styles = "@import url(' https://cdn.jsdelivr.net/gh/Kokazhaev/webchat_button/index.css ');";
+    var styles = "@import url(' https://cdn.jsdelivr.net/gh/Kokazhaev/embedChat/index.css ');";
     var newSS=document.createElement('link');
     newSS.rel='stylesheet';
     newSS.href='data:text/css,'+escape(styles);
